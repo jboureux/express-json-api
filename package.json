@@ -1,0 +1,17 @@
+{
+    "name": "express-json-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Jérémy Boureux",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.14.1",
+        "typescript": "^5.4.5"
+    }
+}
