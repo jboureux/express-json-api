@@ -5,13 +5,19 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "dev": "npx nodemon --exec tsx app.ts"
     },
     "keywords": [],
     "author": "Jérémy Boureux",
     "license": "ISC",
     "devDependencies": {
+        "@types/express": "^4.17.21",
         "@types/node": "^20.14.1",
+        "tsx": "^4.11.2",
         "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "nodemon": "^3.1.3"
     }
 }
